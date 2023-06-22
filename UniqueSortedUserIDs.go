@@ -2,7 +2,7 @@
 import "sort"
 
 func UniqueSortedUserIDs(userIDs []int64) []int64 {
-	if len(userIDs) < 2 { //Берём один элемент 
+	if len(userIDs) < 2 { //Проверяем на количество элементов в слайсе
 		return userIDs
 	}
 
